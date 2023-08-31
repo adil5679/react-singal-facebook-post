@@ -1,0 +1,27 @@
+*{
+    padding: 0%;
+    margin: 0;
+}
+
+
+.mainBody{
+    background-color: aqua;
+    width: 100%;
+    display: flex;
+
+}
+
+.leftSide{
+    background-color: aquamarine;
+    flex-grow: 1;
+}
+
+.middleSide{
+    flex-grow: 2.5;
+    background-color:orchid;
+}
+
+.rightSide{
+    flex-grow: 0.89;
+    background-color: purple;
+}
